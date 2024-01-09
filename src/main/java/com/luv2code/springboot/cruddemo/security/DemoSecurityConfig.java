@@ -31,4 +31,9 @@ public class DemoSecurityConfig {
 
         return new InMemoryUserDetailsManager(john,mary,susan);
     }
+
+    @Bean
+    public void newSecurity(){
+
+    }
 }
